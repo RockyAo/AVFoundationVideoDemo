@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8B4227A1D5AE0260084AA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B422791D5AE0260084AA1F /* AppDelegate.swift */; };
-		D8B4227C1D5AE0260084AA1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4227B1D5AE0260084AA1F /* ViewController.swift */; };
 		D8B4227F1D5AE0260084AA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B4227D1D5AE0260084AA1F /* Main.storyboard */; };
 		D8B422811D5AE0260084AA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B422801D5AE0260084AA1F /* Assets.xcassets */; };
 		D8B422841D5AE0260084AA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B422821D5AE0260084AA1F /* LaunchScreen.storyboard */; };
@@ -17,6 +15,8 @@
 		D8B422A91D5B28BF0084AA1F /* RAPhotoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B422A81D5B28BF0084AA1F /* RAPhotoTool.swift */; };
 		D8B422AB1D5B28F70084AA1F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B422AA1D5B28F70084AA1F /* Photos.framework */; };
 		D8B422AD1D5B2A390084AA1F /* RAAuthorizationCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B422AC1D5B2A390084AA1F /* RAAuthorizationCheck.swift */; };
+		D8B422B11D5C20640084AA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B422AF1D5C20640084AA1F /* AppDelegate.swift */; };
+		D8B422B21D5C20640084AA1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B422B01D5C20640084AA1F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 
 /* Begin PBXFileReference section */
 		D8B422761D5AE0250084AA1F /* AVFoundationVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8B422791D5AE0260084AA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8B4227B1D5AE0260084AA1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8B4227E1D5AE0260084AA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8B422801D5AE0260084AA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B422831D5AE0260084AA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		D8B422A81D5B28BF0084AA1F /* RAPhotoTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAPhotoTool.swift; sourceTree = "<group>"; };
 		D8B422AA1D5B28F70084AA1F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		D8B422AC1D5B2A390084AA1F /* RAAuthorizationCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAuthorizationCheck.swift; sourceTree = "<group>"; };
+		D8B422AF1D5C20640084AA1F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8B422B01D5C20640084AA1F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,8 @@
 		D8B422781D5AE0260084AA1F /* AVFoundationVideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D8B422AE1D5C20390084AA1F /* Demo */,
 				D8B422A71D5B281B0084AA1F /* RACameraTool */,
-				D8B422791D5AE0260084AA1F /* AppDelegate.swift */,
-				D8B4227B1D5AE0260084AA1F /* ViewController.swift */,
 				D8B4227D1D5AE0260084AA1F /* Main.storyboard */,
 				D8B422801D5AE0260084AA1F /* Assets.xcassets */,
 				D8B422821D5AE0260084AA1F /* LaunchScreen.storyboard */,
@@ -141,6 +140,15 @@
 				D8B422AC1D5B2A390084AA1F /* RAAuthorizationCheck.swift */,
 			);
 			path = RACameraTool;
+			sourceTree = "<group>";
+		};
+		D8B422AE1D5C20390084AA1F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D8B422AF1D5C20640084AA1F /* AppDelegate.swift */,
+				D8B422B01D5C20640084AA1F /* ViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B4227C1D5AE0260084AA1F /* ViewController.swift in Sources */,
-				D8B4227A1D5AE0260084AA1F /* AppDelegate.swift in Sources */,
+				D8B422B11D5C20640084AA1F /* AppDelegate.swift in Sources */,
 				D8B422AD1D5B2A390084AA1F /* RAAuthorizationCheck.swift in Sources */,
+				D8B422B21D5C20640084AA1F /* ViewController.swift in Sources */,
 				D8B422A91D5B28BF0084AA1F /* RAPhotoTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +511,7 @@
 				D8B422A01D5AE0260084AA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B422A11D5AE0260084AA1F /* Build configuration list for PBXNativeTarget "AVFoundationVideoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				D8B422A31D5AE0260084AA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B422A41D5AE0260084AA1F /* Build configuration list for PBXNativeTarget "AVFoundationVideoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				D8B422A61D5AE0260084AA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
